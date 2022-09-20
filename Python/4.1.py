@@ -1,0 +1,6 @@
+data = str(input("알파벳을 입력하시오: "))
+
+if (data in 'aeiou'): 
+    print(data, "(은)는 모음입니다.") 
+else : 
+    print(data, "(은)는 자음입니다.")
