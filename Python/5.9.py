@@ -3,7 +3,8 @@ count = 0
 
 while True : 
     if (data > 0): 
-        data = [str, input("정수를 입력하시오 : ")]        
+        data = int(input("정수를 입력하시오 : "))
+        list.append('data')        
         count = count + 1    
     elif (data == -99): 
         break 
