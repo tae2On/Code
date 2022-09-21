@@ -3,7 +3,7 @@ while True:
     print(data)
     data_list = list(data)
     data_list.reverse() 
-    ''.join(s_list)
+    data_list = ''.join(data_list)
 
     if (data == data_list):
         print(data, '은(는) 거꾸로 정수입니다.')
