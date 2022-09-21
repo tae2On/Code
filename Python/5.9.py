@@ -1,10 +1,11 @@
 data = 1
 count = 0 
+number = []
 
 while True : 
     if (data > 0): 
         data = int(input("정수를 입력하시오 : "))
-        list.append('data')        
+        number.append(data)        
         count = count + 1    
     elif (data == -99): 
         break 
