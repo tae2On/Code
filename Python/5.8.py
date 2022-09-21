@@ -1,6 +1,5 @@
 while True:
     data = str(input("정수를 입력하시오 : "))
-    print(data)
     data_list = list(data)
     data_list.reverse() 
     data_list = ''.join(data_list)
